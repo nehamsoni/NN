@@ -1,2 +1,2 @@
 # NN
-basic neural network to classify digits
+Basic neural network to classify digits
