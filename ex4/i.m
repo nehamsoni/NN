@@ -1,0 +1,1 @@
+function i=i(img)img=double(img);img=(255-img)./255;load('param.mat');i=predict(Theta1,Theta2,img(:)');

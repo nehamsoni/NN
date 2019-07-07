@@ -1,0 +1,1 @@
+function L=el()L=zeros(1,10);load('ex4weights.mat');for i = 1:10000  a=rand(20,20);  l=predict(Theta1,Theta2,a(:)');  L(l)=L(l)+1;  %remember l=10 is label for #0  endend  
